@@ -1,0 +1,156 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Конфеты",
+      "description": "Вкусные такие штучки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Молочные продукты",
+      "description": "Все, что сделано из молока"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Крупы",
+      "description": "Все все крупы здесь"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Snickers",
+      "description": "Очень вкусная шоколадка с карамелью орешками и нугой",
+      "image": "",
+      "category": 1,
+      "price": 50,
+      "created_at": "2024-04-09T21:27:04.713Z",
+      "updated_at": "2024-04-09T21:27:04.713Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Twix",
+      "description": "Очень вкусная шоколадка с печеньем и карамелью",
+      "image": "",
+      "category": 1,
+      "price": 50,
+      "created_at": "2024-04-09T21:27:53.012Z",
+      "updated_at": "2024-04-09T21:27:53.012Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Молоко",
+      "description": "Фермерское молоко",
+      "image": "",
+      "category": 2,
+      "price": 65,
+      "created_at": "2024-04-09T21:28:22.000Z",
+      "updated_at": "2024-04-09T21:28:22.000Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Гречневая крупа",
+      "description": "Отборная гречка с наших полей",
+      "image": "",
+      "category": 3,
+      "price": 35,
+      "created_at": "2024-04-09T21:29:06.598Z",
+      "updated_at": "2024-04-09T21:29:06.598Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Кефир",
+      "description": "Продукт, произведенный из молока",
+      "image": "",
+      "category": 2,
+      "price": 65,
+      "created_at": "2024-04-09T21:30:12.372Z",
+      "updated_at": "2024-04-09T21:30:12.372Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Манная крупа",
+      "description": "Манка с наших полей",
+      "image": "",
+      "category": 3,
+      "price": 35,
+      "created_at": "2024-04-09T21:30:44.844Z",
+      "updated_at": "2024-04-09T21:30:44.844Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Маска",
+      "description": "Просто вкусная конфета",
+      "image": "",
+      "category": 1,
+      "price": 25,
+      "created_at": "2024-04-09T21:31:21.524Z",
+      "updated_at": "2024-04-09T21:31:21.524Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Сыр",
+      "description": "Фермерский сыр",
+      "image": "",
+      "category": 2,
+      "price": 60,
+      "created_at": "2024-04-09T21:32:02.538Z",
+      "updated_at": "2024-04-09T21:32:02.538Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Овсяные хлопья",
+      "description": "Овсянка, выращенная с любовью",
+      "image": "",
+      "category": 3,
+      "price": 40,
+      "created_at": "2024-04-09T21:32:33.643Z",
+      "updated_at": "2024-04-09T21:32:33.643Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Рис",
+      "description": "Вкусный-превкусный рис",
+      "image": "",
+      "category": 3,
+      "price": 40,
+      "created_at": "2024-04-09T21:33:15.520Z",
+      "updated_at": "2024-04-09T21:33:15.520Z"
+    }
+  }
+]
