@@ -1,0 +1,29 @@
+{% extends 'catalog/base.html' %}
+{% load my_tags%}
+{% block content %}
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">{{ object.name }}</h1>
+    </div>
+</section>
+
+<div class="album py-5 bg-light">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{% mymedia object.image %}" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>{{ object.name }}</h2><br>
+                <p><strong>Описание:</strong> {{ object.description }}</p>
+                <p><strong>Категория:</strong> {{ object.category }}</p>
+                <p><strong>Цена:</strong> {{ object.price }}р.</p>
+                <p><strong>Дата создания:</strong> {{ object.created_at }}</p>
+                <p><strong>Дата обновления:</strong> {{ object.updated_at }}</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
