@@ -29,6 +29,15 @@
                                    class="btn btn-sm btn-outline-danger">Удалить</a>
                             </div>
                         </div>
+                        <br>
+                        <p class="card-text">
+                            {% for version in active_versions %}
+                            {% if version.product.id == object.id %}
+                            Текущая версия: {{ version.name }}
+                            (версия{{ version.number }})
+                            {% endif %}
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
             </div>
