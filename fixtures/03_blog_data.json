@@ -1,0 +1,41 @@
+[
+  {
+    "model": "blog.blog",
+    "pk": 10,
+    "fields": {
+      "title": "Кафе",
+      "slug": "kafe",
+      "content": "Это одно из самых уютных кафе!!!",
+      "image": "blog/cafe.jpg",
+      "created_at": "2024-04-26T08:41:22.295Z",
+      "is_published": true,
+      "views_count": 20
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 15,
+    "fields": {
+      "title": "Проверка",
+      "slug": null,
+      "content": "фывапр",
+      "image": "",
+      "created_at": "2024-04-26T09:35:10.749Z",
+      "is_published": true,
+      "views_count": 9
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 17,
+    "fields": {
+      "title": "Проверка",
+      "slug": "proverka",
+      "content": "чвсм",
+      "image": "",
+      "created_at": "2024-04-26T09:46:45.219Z",
+      "is_published": true,
+      "views_count": 7
+    }
+  }
+]

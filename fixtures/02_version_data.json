@@ -1,0 +1,52 @@
+[
+  {
+    "model": "catalog.version",
+    "pk": 1,
+    "fields": {
+      "product": 14,
+      "number": 1,
+      "name": "сегодняшний",
+      "is_active": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 3,
+    "fields": {
+      "product": 31,
+      "number": 1,
+      "name": "обычная",
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 5,
+    "fields": {
+      "product": 19,
+      "number": 1,
+      "name": "сегодняшний",
+      "is_active": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 6,
+    "fields": {
+      "product": 19,
+      "number": 2,
+      "name": "вчерашний",
+      "is_active": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 7,
+    "fields": {
+      "product": 14,
+      "number": 2,
+      "name": "вчерашний",
+      "is_active": true
+    }
+  }
+]

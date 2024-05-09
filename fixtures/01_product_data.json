@@ -1,0 +1,158 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 14,
+    "fields": {
+      "name": "Кефир",
+      "description": "Продукт, произведенный из молока",
+      "image": "products/kefirchik.png",
+      "category": 2,
+      "price": 65,
+      "created_at": "2024-04-19T04:53:18.508Z",
+      "updated_at": "2024-05-03T03:49:09.454Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 15,
+    "fields": {
+      "name": "Молоко",
+      "description": "Фермерское молоко",
+      "image": "products/milk.jpg",
+      "category": 2,
+      "price": 60,
+      "created_at": "2024-04-19T04:55:42.815Z",
+      "updated_at": "2024-04-19T04:55:42.815Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 16,
+    "fields": {
+      "name": "Рис",
+      "description": "Вкусный-превкусный рис",
+      "image": "products/rice.jpg",
+      "category": 3,
+      "price": 50,
+      "created_at": "2024-04-19T04:58:23.246Z",
+      "updated_at": "2024-04-19T04:58:23.246Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 17,
+    "fields": {
+      "name": "Овсяные хлопья",
+      "description": "Овсянка, выращенная с любовью",
+      "image": "products/cereals.jpg",
+      "category": 3,
+      "price": 50,
+      "created_at": "2024-04-19T05:00:34.778Z",
+      "updated_at": "2024-04-19T05:00:34.778Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 19,
+    "fields": {
+      "name": "Сыр",
+      "description": "Фермерский сыр",
+      "image": "products/cheese1.jpg",
+      "category": 2,
+      "price": 75,
+      "created_at": "2024-04-19T05:04:43.930Z",
+      "updated_at": "2024-05-03T03:29:28.104Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 20,
+    "fields": {
+      "name": "Маска",
+      "description": "Просто вкусная конфета",
+      "image": "products/mask.jpg",
+      "category": 1,
+      "price": 45,
+      "created_at": "2024-04-19T05:06:26.858Z",
+      "updated_at": "2024-04-19T05:06:26.858Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 21,
+    "fields": {
+      "name": "Манная крупа",
+      "description": "Манка с наших полей",
+      "image": "products/manka.jpg",
+      "category": 3,
+      "price": 40,
+      "created_at": "2024-04-19T05:08:01.538Z",
+      "updated_at": "2024-04-19T05:08:01.538Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 22,
+    "fields": {
+      "name": "Гречневая крупа",
+      "description": "Отборная гречка с наших полей",
+      "image": "products/grechka.jpg",
+      "category": 3,
+      "price": 40,
+      "created_at": "2024-04-19T05:09:12.466Z",
+      "updated_at": "2024-04-19T05:09:12.466Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 23,
+    "fields": {
+      "name": "Snickers",
+      "description": "Очень вкусная шоколадка с карамелью, орешками и нугой",
+      "image": "products/Snikers.jpg",
+      "category": 1,
+      "price": 65,
+      "created_at": "2024-04-19T05:11:04.776Z",
+      "updated_at": "2024-04-19T05:11:04.776Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 24,
+    "fields": {
+      "name": "Twix",
+      "description": "Очень вкусная шоколадка с печеньем и карамелью",
+      "image": "products/twix1.jpg",
+      "category": 1,
+      "price": 65,
+      "created_at": "2024-04-19T05:13:18.885Z",
+      "updated_at": "2024-04-19T05:13:18.885Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 29,
+    "fields": {
+      "name": "Творог",
+      "description": "Очень вкусненький творожок",
+      "image": "products/tvorog_aDcQ8WB.jpg",
+      "category": 2,
+      "price": 85,
+      "created_at": "2024-05-02T23:23:08.354Z",
+      "updated_at": "2024-05-02T23:26:48.287Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 31,
+    "fields": {
+      "name": "Карамелька",
+      "description": "Вкусненькая конфетка",
+      "image": "",
+      "category": 1,
+      "price": 2,
+      "created_at": "2024-05-03T03:24:41.447Z",
+      "updated_at": "2024-05-03T03:26:02.649Z"
+    }
+  }
+]
