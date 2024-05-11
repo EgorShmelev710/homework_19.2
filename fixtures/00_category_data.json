@@ -1,0 +1,26 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Конфеты",
+      "description": "Вкусные такие штучки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Молочные продукты",
+      "description": "Все, что сделано из молока"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Крупы",
+      "description": "Все все крупы здесь"
+    }
+  }
+]
