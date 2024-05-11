@@ -27,7 +27,6 @@ class Command(BaseCommand):
                 products.append(item)
         return products
 
-
     def handle(self, *args, **options):
         Product.objects.all().delete()
         Category.objects.all().delete()
