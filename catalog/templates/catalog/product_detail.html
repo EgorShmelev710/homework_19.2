@@ -21,6 +21,9 @@
                 <p><strong>Цена:</strong> {{ object.price }}р.</p>
                 <p><strong>Дата создания:</strong> {{ object.created_at }}</p>
                 <p><strong>Дата обновления:</strong> {{ object.updated_at }}</p>
+                {% if object.user %}
+                <p><strong>Создал пользователь:</strong> {{ object.user }}</p>
+                {% endif %}
             </div>
         </div>
 
