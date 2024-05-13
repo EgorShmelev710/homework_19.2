@@ -2,7 +2,6 @@ import random
 import secrets
 import string
 
-from django.contrib.auth.hashers import make_password
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse_lazy, reverse

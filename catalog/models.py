@@ -28,12 +28,17 @@ class Product(models.Model):
 
     user = models.ForeignKey(User, on_delete=models.SET_NULL, **NULLABLE, verbose_name='создал пользаватель')
 
+    is_published = models.BooleanField(default=False, verbose_name='опубликован')
+
     def __str__(self):
         return self.name
 
     class Meta:
         verbose_name = 'продукт'
         verbose_name_plural = 'продукты'
+        permissions = [
+            ('change_published_status', 'Can change status "published"')
+        ]
 
 
 class Version(models.Model):
