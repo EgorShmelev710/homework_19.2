@@ -5,7 +5,8 @@ from django.views.generic import ListView, DetailView, TemplateView, CreateView,
 from django.forms import inlineformset_factory
 
 from catalog.forms import ProductForm, VersionForm, ProductModeratorForm
-from catalog.models import Product, Version
+from catalog.models import Product, Version, Category
+from catalog.services import get_cached_category_list
 
 
 class ProductListView(ListView):
@@ -100,4 +101,13 @@ class ModeratorProductList(ListView):
         for product in context_data.get('object_list'):
             active_versions.append(product.version.filter(is_active=True).first())
         context_data['active_versions'] = active_versions
+        return context_data
+
+
+class CategoryListView(ListView):
+    model = Category
+
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        context_data['category_list'] = get_cached_category_list()
         return context_data
