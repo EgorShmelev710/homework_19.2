@@ -107,7 +107,12 @@ class ModeratorProductList(ListView):
 class CategoryListView(ListView):
     model = Category
 
-    def get_context_data(self, **kwargs):
-        context_data = super().get_context_data(**kwargs)
-        context_data['category_list'] = get_cached_category_list()
-        return context_data
+    # def get_context_data(self, **kwargs):
+    #     context_data = super().get_context_data(**kwargs)
+    #     context_data['category_list'] = get_cached_category_list()
+    #     return context_data
+
+    def get_queryset(self):
+        queryset = get_cached_category_list()
+
+        return queryset
